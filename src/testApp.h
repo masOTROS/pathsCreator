@@ -9,7 +9,7 @@ class testApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
-    
+
     void exit();
 
 		void keyPressed  (int key);
@@ -21,15 +21,19 @@ class testApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-    
+		void savePath();
+
     ofImage background;
     float backgroundScale;
     ofPoint backgroundPosition;
-    
+
+    ofPoint     animationCanvasPosition;
     ofRectangle animationCanvas;
-    
-    
+
+    ofPolyline path;
+    bool pathOpen;
+
     ofxUISuperCanvas *gui;
 	void guiEvent(ofxUIEventArgs &e);
-		
+
 };

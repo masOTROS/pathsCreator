@@ -25,6 +25,7 @@ bin/*
 *.workspace
 *.cbp
 *.layout
+*.depend
 
 #XCode files
 *.plist
