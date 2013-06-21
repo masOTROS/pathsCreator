@@ -2,38 +2,43 @@
     <Kind>42</Kind>
     <Name>OFX_UI_WIDGET_CANVAS</Name>
     <IsMinified>0</IsMinified>
-    <XPosition>833</XPosition>
-    <YPosition>23</YPosition>
+    <XPosition>931.000000000</XPosition>
+    <YPosition>13.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>4</Kind>
     <Name>backgroundScale</Name>
-    <Value>1.34975</Value>
+    <Value>1.000000000</Value>
 </Widget>
 <Widget>
     <Kind>11</Kind>
     <Name>backgroundPosition</Name>
-    <XValue>0</XValue>
-    <YValue>0</YValue>
+    <XValue>0.000000000</XValue>
+    <YValue>0.000000000</YValue>
 </Widget>
 <Widget>
     <Kind>11</Kind>
     <Name>animationCanvasOrigin</Name>
-    <XValue>118.227</XValue>
-    <YValue>133.99</YValue>
+    <XValue>120.000000000</XValue>
+    <YValue>80.000000000</YValue>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>animationCanvasWidth</Name>
-    <Value>461.084</Value>
+    <Value>472.906402588</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>animationCanvasHeight</Name>
-    <Value>248.276</Value>
+    <Value>350.738891602</Value>
 </Widget>
 <Widget>
     <Kind>17</Kind>
     <Name>pathOpen</Name>
     <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>smoothingSize</Name>
+    <Value>10.000000000</Value>
 </Widget>

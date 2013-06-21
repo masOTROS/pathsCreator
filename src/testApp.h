@@ -22,17 +22,19 @@ class testApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		void savePath();
+        void adjustToCorners();
 
     ofImage background;
     float backgroundScale;
     ofPoint backgroundPosition;
 
-    ofPoint     animationCanvasPosition;
     ofRectangle animationCanvas;
 
     ofPolyline path;
     bool pathOpen;
-
+    
+    int smoothingSize;
+    
     ofxUISuperCanvas *gui;
 	void guiEvent(ofxUIEventArgs &e);
 
